@@ -45,6 +45,11 @@ body {
   --color-violet-300: #5724ff;
   --color-yellow-100: #8e983f;
   --color-yellowviolet-300: #edff66;
+  --font-zentry: ["zentry", "sans-serif"],
+  --font-general: ["general", "sans-serif"],
+  --font-circular-web: ["circular-web", "sans-serif"],
+  --font-robert-medium: ["robert-medium", "sans-serif"],
+  --font-robert-regular: ["robert-regular", "sans-serif"],
 }
 
 @layer utilities {
