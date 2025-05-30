@@ -16,7 +16,7 @@ const About = () => {
         scrub: 0.5,
         pin: true,
         pinSpacing: true,
-        markers: true,
+        // markers: true,
       },
     });
     clipAnimation.to(".mask-clip-path", {
