@@ -27,7 +27,7 @@ A modern, responsive, and animated clone of the award-winning [Zentry.com](https
 
 Check out the live version of the project:
 
-👉 [Zentry Clone Live Site]()
+👉 [Zentry Clone Live Site](https://humiiii.github.io/zentry/)
 
 ---
 
@@ -39,7 +39,7 @@ To run this project locally:
 
    ```bash
    git clone https://github.com/humiiii/zentry
-   cd zentry-clone
+   cd zentry
    ```
 
 2. **Install dependencies:**
