@@ -26,7 +26,7 @@ const About = () => {
     });
   });
   return (
-    <div className="min-h-screen w-screen" id="about">
+    <div className="min-h-screen w-screen scroll-mt-2" id="about">
       <div className="relative flex flex-col items-center gap-5 mt-36 mb-8">
         <p className="font-[general] font-medium text-sm uppercase md:text-[14px]">
           Welcome to Zentry
