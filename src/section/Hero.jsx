@@ -22,7 +22,8 @@ const Hero = () => {
     setLoadedVideos((prev) => prev + 1);
   };
 
-  const handleMiniVideoClick = () => {
+  const handleMiniVideoClick = (e) => {
+    e.preventDefault();
     setHasClicked(true);
 
     setCurrentIndex(upcommintVideoIndex);
@@ -104,6 +105,7 @@ const Hero = () => {
                 src={getVideoSrc(upcommintVideoIndex)}
                 loop
                 muted
+                playsInline
                 id="current-video"
                 className="size-64 origin-center scale-150 object-cover object-center"
                 onLoadedData={handleVideoLoad}
@@ -116,6 +118,7 @@ const Hero = () => {
             src={getVideoSrc(currentIndex)}
             loop
             muted
+            playsInline
             className="absolute-center absolute z-20 size-64 object-cover object-center invisible"
             onLoadedData={handleVideoLoad}
           />
@@ -126,6 +129,7 @@ const Hero = () => {
             loop
             autoPlay
             muted
+            playsInline
             className="absolute top-0 left-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
           />
